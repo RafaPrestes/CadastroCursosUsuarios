@@ -12,7 +12,11 @@
     padding-bottom: 3rem;
     color: #5a5a5a;
   }
-   
+
+  .featurette .featurette-heading {
+    color: var(--cor-button);
+  }
+
   /* ---------------- NAVBAR ---------------*/
   .navbar {
     background-color: rgb(168, 115, 94);
@@ -126,7 +130,49 @@
     letter-spacing: -.05rem;
   }
   
+  .lead > ol > li{
+    font-weight: bold;
+  }
   
+  .icon-facebook:before {
+    content: "\e904";
+  }
+
+  .icon-instagram:before {
+    content: "\e905";
+  }
+  .icon-whatsapp:before {
+    content: "\e90a";
+  }
+
+  .icon-facebook:hover{
+    top: -20px;
+    position: relative;
+  }
+
+  .icon-instagram:hover{
+    top: -20px;
+    position: relative;
+  }
+
+  .icon-whatsapp:hover{
+    top: -20px;
+    position: relative;
+  }
+
+  i {
+    padding-left: 20px;
+    height: 50px;
+    width: 50px;
+  }
+
+ 
+
+  .logofooter a {
+    text-decoration: none;
+    color: var(--cor-button);
+  }
+
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   

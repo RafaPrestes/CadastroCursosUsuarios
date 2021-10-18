@@ -23,7 +23,7 @@
             <img class="mb-4" src="assets/imagens/logo.png" alt="logo-bootstrap" width="72" height="57">
             <h1 class="h3 mb-3 fw-normal">Cadastrar Cursos</h1>
 
-            <form action="https://61563f7be039a0001725a964.mockapi.io/api/v1/usuario" method="POST">
+            <form action="https://61563f7be039a0001725a964.mockapi.io/api/v1/cursos" method="POST">
                 <div class="form-floating">
                     <input type="text" class="form-control" id="nome" name="nome" placeholder="name@example.com"
                         required>
@@ -39,6 +39,10 @@
                         required>
                     <label for="imagem">URL da foto*</label>
 
+                    <div class="mb-3">
+                        <label for="imagem" class="form-label">ou do computador</label>
+                        <input class="form-control" type="file" id="imagem" name="imagem">
+                    </div>
                 </div>
                 <div class="form-floating">
                     <input type="number" class="form-control" id="qtdhoras" name="qtdhoras"

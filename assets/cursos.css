@@ -73,6 +73,10 @@
       font-weight: bold;
   }
 
+  .border-bottom  {
+    color: rgb(168, 115, 94);
+  }
+
   h2 {
       font-weight: bold;
   }
