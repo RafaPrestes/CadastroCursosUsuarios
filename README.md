@@ -34,9 +34,14 @@
 </div>
 <br>
 
+# Course Registration (CRUD)
+<img src="https://user-images.githubusercontent.com/64441986/157501451-e4f718c9-b793-4097-b6e4-482ea15a0633.PNG" width="700px" />
+<br>
+     
 # Technologies
 <ul>
 <li>HTML 5</li>
 <li>CSS 3</li>
 <li>Bootstrap</li>
+<li>Javascript</li>  
 </ul>
